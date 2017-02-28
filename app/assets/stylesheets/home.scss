@@ -1,0 +1,478 @@
+html,
+body {
+	// min-width: 1452px;
+	width: 100%;
+    overflow-x: auto; /* Prevent scroll on narrow devices */
+    .row{
+    	margin-left: 0px;
+    	margin-right: 0px;
+    }
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+#navbar{
+	text-align: center;
+	.navbar-nav{
+		li{
+			float: left;
+		}
+
+	}
+}
+.navbar-toggle {
+    position: absolute;
+    left: 2%;
+    top: 10px;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+#header{
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-bottom: 0px;
+	height: 80px;
+
+	.nav-triangle{
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 85px 165px 0 165px;
+		border-color: rgba(0, 0, 0, 0.4) transparent transparent transparent;
+	    position: absolute;
+	    top: 80px;
+	    left: -102px;
+	    z-index: -1;
+	}
+	li{
+		margin-right: 15px;
+  	margin-left: 15px;
+		margin-top: 0px;
+
+		a{
+			color: white;
+			font-size: 30px;
+			margin-top: 10px;
+
+			&:hover{
+				color: gray;
+				background-color: transparent;
+			}
+		}
+	}
+	li.active{
+		a{
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+.nav_logo{
+	background-image: image-url("");
+	height: 60px;
+  width: 60px;
+  background-size: cover;
+}
+#img_logo{
+	width: 100px;
+	margin-top: -10px;
+}
+
+footer {
+	width: 100%;
+}
+.footer{
+	background-color: #84ced7;
+    padding-top: 10px;
+    // padding-bottom: 40px;
+	p{
+		color: white;
+		font-size: 18px;
+	}
+	a{
+		font-size: 18px;
+	}
+	.col-lg-7{
+		a{
+			margin-right: 1em;
+			color: white;
+		}
+	}
+}
+
+.section-container{
+	h1{
+		font-size: 70px;
+		color: white;
+		text-transform: uppercase;
+	}
+	h2{
+		font-size: 36px;
+		color: white;
+		text-transform: uppercase;
+	}
+	h3{
+		font-size: 26px;
+		color: white;
+	}
+	p{
+		margin: 0px;
+		color: white;
+		font-size: 25px;
+	}
+	.col-md-8, .col-md-4, .col-md-5, .col-md-2, .col-lg-7, .col-lg-5{
+		padding: 0px;
+	}
+
+	.section-one{
+		background-image: image-url("header_image.png");
+		background-size: cover;
+		// min-height: 1052px;
+		.btn-find-out-more{
+			border-radius: 0px;
+	    background-color: rgba(255,255,255,0.5);
+	    font-size: 36px;
+	    color: white;
+	    border: none;
+	    padding: 10px 20px;
+		}
+		.section-content1{
+			margin-top: 120px;
+		}
+		.content-btn-section1{
+			margin-top: 200px;
+			margin-bottom: 50px;
+		}
+		#btn_find_out_more_hidden{
+			display: none;
+		}
+		.section-title{
+			margin-top: 4em;
+			text-shadow: 5px 5px 8px rgba(0,0,0, 0.6);
+		}
+	}
+	.section-two{
+		.blog-content{
+			font-size: 16px;
+		}
+		background-color: #32aeba;
+		height: 1450px;
+		.section-content2{
+			margin-top: 60px;
+			margin-bottom: 60px
+		}
+		.section-title2{
+			margin-top: 60px;
+		}
+		.div_over_crowding{
+			margin-top: 180px;
+		}
+		#p_over_crowding{
+			margin-right: 55px;
+		}
+		#img_road_01{
+			margin-left: 7em;
+			margin-top: -4em;
+		}
+		#icon_why_alfred{
+			margin-left: -7em;
+			margin-top: -90px
+		}
+		#img_road_02{
+			margin-left: -26px;
+			margin-top: -52px
+		}
+		#img_increasing_public_transport{
+			margin-top: 3em;
+		}
+		.left-section{
+			padding-left: 25px;
+			margin-top: 95px;
+			.section-content-text{
+				margin-top: -40px;
+			}
+		}
+		.left-section_2{
+			padding-left: 12em;
+			margin-top: -200px;
+		}
+		.left-section_t1{
+			margin-right: -150px;
+		}
+		.right-section{
+			padding-right: 2em;
+			margin-top: 320px;
+
+			.right-section-2{
+				margin-top: 5em;
+				margin-left: -140px;
+
+				.content-text{
+					margin-top: -55px;
+					margin-left: -3em;
+				}
+			}
+		}
+	}
+	.section-three{
+		padding-top: 280px;
+		background-image: image-url("background_map.png");
+		.left-section-2{
+			margin-left: 15px;
+			margin-top: -15em;
+			padding-left: 10em;
+		}
+		.right-section-2{
+			margin-right: -15px;
+		}
+		.section-content-text{
+			margin-left: -1em;
+			margin-top: -30px;
+		}
+		.section2-driver-text{
+			background-color: #32aeba;
+			margin-right: 5em;
+			margin-left: 3em;
+			margin-top: -8em;
+			padding: 20px;
+
+		}
+		.section2-pass-text{
+			background-color: #32aeba;
+			margin-right: -4em;
+			margin-top: 12em;
+			padding: 20px;
+
+		}
+		.section2-message-text{
+			background-color: #32aeba;
+			margin-right: 5em;
+			margin-top: 15em;
+			padding: 20px;
+		}
+		#img_message{
+			margin-top: 7em;
+		}
+		#img_driver_mode{
+			margin-left: -7em;
+		}
+		#img_road_03{
+			margin-left: -11em;
+			margin-top: -125px;
+		}
+		#img_passenger{
+			margin-left: 6em;
+			margin-top: -12px;
+		}
+		#img_road_04{
+			margin-left: 3em;
+			margin-top: -9em;
+		}
+		#img_message_board{
+			margin-left: -9em;
+			margin-top: 0px;
+		}
+		#img_road_05{
+			margin-left: -6em;
+			margin-top: -90px;
+		}
+		#img_road_arrow{
+			margin-left: 4.3em;
+			margin-top: 40px;
+			margin-bottom: 30px;
+		}
+		#img_passenger_mode{
+			margin-top: 8em;
+			margin-left: 15em;
+		}
+	}
+	.section-four{
+		padding-top: 50px;
+		padding-bottom: 10px;
+		background-color: #32aeba;
+		// height: 740px;
+
+		.section-four-left{
+			padding-right: 80px;
+			margin-left: 100px;
+		}
+		h3{
+	    margin-top: 30px;
+	    margin-bottom: -6px;
+		}
+		p{
+			padding-top: 30px;
+		}
+		.col-lg-1 div{
+			margin-top: 34px;
+		}
+		.col-lg-4 div{
+			padding-top: 10px;
+			#icon_appstore_link, #icon_google_link{
+				margin-right: 24px;
+				width: 40%;
+			}
+		}
+		.image_shadow{
+			box-shadow: 0px 5px 1px rgba(0,0,0,0.3);
+    		border-radius: 35px;
+		}
+		.btn-notify-me{
+			width: 50%;
+		}
+		.image_shadow{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.input-placeholder{
+			color: #32aeba;
+			width: 270px;
+		    height: 40px;
+		    border-left-width: 0px;
+		    padding-left: 10px;
+		    padding-right: 10px;
+		}
+		.div-info{
+			text-align: left;
+			padding-left: 20px;
+		}
+		#button_notify_me{
+			margin-bottom: 30px
+		}
+	}
+	.section-two-mobile{
+		background-color: #32aeba;
+		padding-bottom: 30px;
+		.section-content2{
+			margin-top: 30px;
+			margin-bottom: 40px;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		.div_over_crowding{
+			margin-top: 180px;
+		}
+		.img-why-alfred{
+			width: 12em;
+		}
+		.img_road_01{
+			width: 20em;
+		}
+		.img-road-02{
+			width: 3em;
+		}
+		#p_over_crowding{
+			margin-right: 55px;
+		}
+		#img_road_01_mobile{
+			margin-top: -3em;
+
+		}
+		#icon_why_alfred{
+			margin-left: -20px;
+			margin-top: -90px;
+			margin-bottom: 30px;
+		}
+		#section_two_mobile_arrow_left{
+			padding-top: 5em;
+			padding-right: 4em;
+			.img-arrow-left{
+				width: 3em;
+			}
+		}
+		#section_two_mobile_arrow_right{
+			padding-top: 5em;
+			padding-left: 3.5em;
+			.img-arrow-right{
+				width: 3em;
+			}
+		}
+		.icon_road_traffic{
+			width: 8em;
+			padding-top: 30px;
+		}
+		.div-road-traffic-img{
+			margin-left: 0em;
+		}
+		.div-road-traffic{
+			background-color: white;
+			box-shadow: 0 0 5px rgba(0,0,0,.8);
+			margin-left: 2em;
+    	margin-right: 2em;
+			p{
+				color: #32aeba;
+				padding: 2em;
+			}
+		}
+	}
+	.section-three-mobile{
+		background-image: image-url("mobile/bacground_map.png");
+		margin-top: -8em;
+		#section_three_mobile_arrow_left{
+			padding-top: 5em;
+			padding-right: 4em;
+			.icon-arrow-left{
+				width: 3em;
+			}
+		}
+		#section_three_mobile_arrow_right{
+			padding-top: 5em;
+			padding-left: 4em;
+			.icon-arrow-right{
+				width: 3em;
+			}
+		}
+		#section_three_mobile_icon_driver{
+			padding-top: 3em;
+			margin-bottom: -3em;
+		}
+		#section_three_mobile_iphone{
+			padding-top: 2em;
+			padding-right: 5em;
+			padding-left: 4em;
+		}
+		.div-driver-text{
+			background-color: #32aeba;
+			margin-left: 2em;
+    	margin-right: 2em;
+			p{
+				padding: 2em;
+			}
+		}
+	}
+}

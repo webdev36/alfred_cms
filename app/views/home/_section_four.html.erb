@@ -1,0 +1,56 @@
+<section class="section-four">
+    <div id="contact" class="row text-center">
+		<div class="col-lg-7 col-lg-offset-1 col-md-11 col-sm-11 col-xs-11 section-four-left">
+			<h1 id="h1_about_us">about us</h1>
+			<div class="text-left">
+        <p id="p_about_us">
+  				Alfred’s vision is to become the main platform for independent and “live ridesharing”. Alfred will help society to become more efficient and economical with their travel habits within our cities. Alfred will offer a safe social platform for its users to connect with each other and travel together!
+  			</p>
+			</div>
+			<div class="row text-center">
+				<div class="col-lg-1 col-md-2 col-sm-2 col-xs-2 div-img-info">
+					<div id="img_phone"><%= image_tag("icon_phone.png") %></div>
+					<div id="img_email"><%= image_tag("icon_email.png") %></div>
+					<div id="img_address"><%= image_tag("icon_address.png") %></div>
+				</div>
+				<div class="col-lg-7 col-md-10 col-sm-10 col-xs-10 div-info">
+					<p id="p_phone">0208 355 13 10</p>
+					<p id="p_email">info@alfredridesharing.com</p>
+					<p id="p_address">69 Brook St, Myfair, London <br /> W1K 4ER, Great Britain</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center section-four-right">
+      <div class="row"><h2 id="h2_launch">launching soon on:</h2></div>
+      <div class="row div-app-link">
+        <div class="col-md-3 col-sm-2 col-xs-2">
+
+        </div>
+        <div class="col-lg-12 col-md-3 col-sm-4 col-xs-4" id="icon_appstore">
+          <a href="#"><%= image_tag("icon_appstore.png", id: "icon_appstore_link") %></a>
+        </div>
+  			<div class="col-lg-12 col-md-3 col-sm-4 col-xs-4" id="icon_google">
+          <a href="#"><%= image_tag("icon_google.png", id: "icon_google_link") %></a>
+        </div>
+        <div class="col-md-3 col-sm-2 col-xs-2">
+
+        </div>
+      </div>
+      <div class="row">
+        <h3 id="h3_notify">Want to be notified ?</h3>
+        <p id="p_input" style="color: #32aeba;"><%= text_field_tag 'name', nil, {placeholder: 'Your Email', class: "input-placeholder"}%></p>
+  			<div id="button_notify_me"><a href=""><%= image_tag("button_notify_me.png", :class => "btn-notify-me") %></a></div>
+  			<div class="div-link">
+          <a id="a_instagram" href="https://www.instagram.com/Alfredridesharing/?ref=badge"><%= image_tag("icon_insta.png", class: "image_shadow") %></a>
+  			  <a id="a_twitter" href="https://twitter.com/AlfredRideShare"><%= image_tag("icon_twitter.png", class: "image_shadow") %></a>
+  			  <a id="a_facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//localhost%3A3000/"><%= image_tag("icon_fb.png", class: "image_shadow") %></a>
+        </div>
+      </div>
+		</div>
+    <div class="row div-system-link text-center hidden-lg">
+      <a href="#"><u>PRIVACY POLICY</u></a>
+  		<a href="#"><u>FAQ</u></a>
+  		<a href="#"><u>CODE OF CONDUCT</u></a>
+  		<a href="#"><u>TERMS AND CONDITIONS</u></a>
+    </div>
+	</section>

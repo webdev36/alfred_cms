@@ -1,0 +1,871 @@
+@media (max-width : 1400px) and (min-width : 1200px) {
+	.section-container{
+		h1{
+			font-size: 50px;
+		}
+		h2{
+			font-size: 30px;
+		}
+		p{
+			font-size: 26px;
+		}
+		.section-one{
+			.section-content1{
+				margin-top: 80px;
+			}
+			.section-btn-section1{
+				margin-top: 210px;
+			}
+		}
+		.section-two{
+			#section2_icon_road_traffic, #section2_icon_over_crowding, #section2_icon_increasing, #section2_icon_helping{
+				width: 11em;
+			}
+			.section-content2 {
+		    margin-top: 20px;
+		    margin-bottom: 30px;
+			}
+			.right-section .right-section-2{
+				margin-left: -110px;
+			}
+		}
+		.section-three{
+			#section3_iphone_driver, #section3_iphone_message, #section3_iphone_passenger{
+				width: 18em;
+			}
+			.section2-driver-text{
+				margin-top: -10em;
+			}
+			.section2-pass-text{
+				margin-top: 20em;
+			}
+			.section2-message-text{
+				margin-top: 20em;
+			}
+		}
+		.section-four{
+			.section-four-left{
+				margin-left: 30px;
+			}
+		}
+	}
+}
+@media (max-width : 1200px) {
+	.footer{
+		p{
+			font-size: 14px;
+		}
+	}
+	.section-container{
+		h1{
+			font-size: 40px;
+		}
+		h2{
+			font-size: 20px;
+		}
+		p{
+			font-size: 20px;
+		}
+		.section-one{
+			background-size: cover;
+			#btn_find_out_more_hidden{
+				display:inline !important;
+				font-size: 18px;
+			}
+			#btn_find_out_more_show{
+				display: none;
+			}
+			.section-title{
+				margin-top: 250px;
+			}
+			.section-content1{
+				margin-top: 80px;
+			}
+			.content-btn-section1{
+				margin-top: 80px;
+			}
+		}
+		.section-two{
+			height: 1288px;
+		}
+		.section-three{
+			p{
+				font-size: 33px;
+			}
+			padding-top: 0px;
+			.section-content-text{
+				margin-left: -1em;
+				margin-top: -30px;
+			}
+			.section2-driver-text{
+				background-color: #32aeba;
+				margin-right: 5em;
+				margin-left: 3em;
+				margin-top: -4em;
+				padding: 20px;
+
+			}
+			.section2-pass-text{
+				background-color: #32aeba;
+				margin-right: -4em;
+				margin-top: 12em;
+				padding: 20px;
+
+			}
+			.section2-message-text{
+				background-color: #32aeba;
+				margin-right: 5em;
+				margin-top: 12em;
+				padding: 20px;
+
+			}
+		}
+		.section-two-mobile{
+			.img-road-02{
+				width: 2em;
+			}
+		}
+		.section-three-mobile{
+			#section_three_mobile_icon_driver{
+				.icon_driver{
+					width: 11em;
+				}
+			}
+		}
+		.section-four{
+			h1{
+				font-size: 46px;
+			}
+			h2{
+				font-size: 38px;
+			}
+			h3{
+				font-size: 30px;
+			    color: white;
+			    margin-top: 42px;
+			    margin-bottom: -6px;
+			}
+			p{
+				font-size: 26px;
+				padding-top: 30px;
+			}
+			.div-info{
+				padding-left: 0px;
+			}
+			.btn-notify-me{
+				width: 20%;
+			}
+			.col-lg-1 div{
+				margin-top: 34px;
+			}
+			.col-lg-4 div{
+				#icon_appstore_link, #icon_google_link{
+					width: 60%;
+				}
+			}
+			.image_shadow{
+				box-shadow: 0px 5px 1px rgba(0,0,0,0.3);
+	    		border-radius: 35px;
+			}
+			.section-four-left{
+				padding-right: 80px;
+				margin-left: 100px;
+			}
+			.section-four-right{
+				margin-bottom: 30px;
+			}
+			.input-placeholder{
+				color: #32aeba;
+				width: 306px;
+			    height: 56px;
+			    border-left-width: 0px;
+			    padding-left: 10px;
+			    padding-right: 10px;
+			}
+			.div-system-link{
+				a{
+					padding-left: 10px;
+					padding-right: 10px;
+					color: white;
+				}
+			}
+		}
+	}
+}
+@media only screen
+and (max-width : 1000px) {
+	.nav-triangle{
+    display: none;
+  }
+  #icon_logo{
+    display: none;
+  }
+}
+@media only screen
+and (max-width : 768px){
+	#header li a {
+    font-size: 28px;
+	}
+	.section-container{
+		h1{
+			font-size: 32px;
+		}
+		p{
+			font-size: 15px;
+		}
+
+		.section-one{
+			background-size: cover;
+			#btn_find_out_more_hidden{
+				display:inline !important;
+				font-size: 14px;
+			}
+			#btn_find_out_more_show{
+				display: none;
+			}
+			.section-title{
+				margin-top: 160px;
+			}
+			.section-content1{
+				margin-top: 30px;
+			}
+			.content-btn-section1{
+				margin-top: 50px;
+			}
+		}
+		.section-two{
+			height: 1110px;
+		}
+		.section-two-mobile{
+			#img_road_01_mobile{
+		    padding-left: 7em;
+			}
+			.img_road_01{
+				width: 15em;
+			}
+			.img-road-02{
+				width: 1.5em;
+			}
+			.div-road-traffic-img{
+				margin-left: -1.5em;
+			}
+			#section_two_mobile_arrow_left{
+				padding-right: 5em;
+			}
+			#section_two_mobile_arrow_right{
+				padding-left: 4em;
+			}
+		}
+
+		.section-three-mobile{
+			.icon_driver{
+				width: 100%
+			}
+			.icon_arrow_left{
+				width: 2.5em;
+			}
+			.img-road-03{
+				width: 2em;
+			}
+			#section_three_mobile_iphone{
+				padding-left: 2em;
+				.img-iphone{
+					width: 16em;
+				}
+			}
+			#section_three_mobile_icon_driver .icon_driver{
+				width: 6em;
+			}
+			.div-driver-text{
+				p{
+					font-size: 22px;
+				}
+			}
+		}
+		.section-four{
+			h1{
+				font-size: 36px;
+			}
+			h2{
+				font-size: 31px;
+			}
+			h3{
+				font-size: 30px;
+		    color: white;
+		    margin-top: 42px;
+		    margin-bottom: -6px;
+			}
+			p{
+				font-size: 20px;
+				padding-top: 30px;
+			}
+			img{
+				width: 3em;
+			}
+			.col-lg-1 div{
+				margin-top: 34px;
+			}
+			.col-lg-4 div{
+				padding-top: 10px;
+				img{
+					margin-right: 24px;
+				}
+			}
+			.image_shadow{
+				box-shadow: 0px 5px 1px rgba(0,0,0,0.3);
+	    		border-radius: 35px;
+			}
+			.section-four-left{
+				padding-right: 80px;
+				margin-left: 30px;
+			}
+			.input-placeholder{
+				color: #32aeba;
+				width: 306px;
+			    height: 56px;
+			    border-left-width: 0px;
+			    padding-left: 10px;
+			    padding-right: 10px;
+			}
+			.btn-notify-me{
+				width: 30%;
+			}
+		}
+	}
+}
+@media only screen
+and (max-width : 765px) {
+  #header{
+    height: 60px;
+  }
+}
+@media only screen
+and (max-width : 736px){
+	#header{
+		height: 48px;
+		.navbar-toggle {
+			top: 0px;
+		}
+		li{
+			margin-top: -12px;
+			a{
+				font-size: 16px;
+			}
+		}
+	}
+	.section-container{
+		.section-two{
+			height: 1090px;
+		}
+		.section-two-mobile{
+			.img-road-02{
+				width: 1.5em;
+			}
+		}
+	}
+}
+@media only screen
+and (max-width : 667px) {
+	.section-container{
+		.section-two{
+			height: 1109px;
+		}
+		.section-four{
+			h1{
+				font-size: 40px;
+			}
+			h2{
+				font-size: 38px;
+			}
+			h3{
+				font-size: 36px;
+			}
+			p{
+				font-size: 20px;
+			}
+		}
+		.section-four-left{
+			margin-bottom: 30px;
+		}
+		.col-lg-4 .div-link{
+			padding-top: 30px;
+		}
+	}
+}
+@media only screen and (max-width : 640px) {
+	.section-container{
+		.section-two{
+			height: 1094px;
+		}
+		.section-two-mobile .img_road_01 {
+    	width: 13em;
+		}
+		.section-three-mobile{
+			#section_three_mobile_iphone .img-iphone {
+		    width: 14em;
+			}
+			.div-driver-text p {
+		    font-size: 20px;
+			}
+		}
+		.section-four{
+			h1 {
+		    font-size: 35px;
+			}
+			h2{
+				font-size: 30px;
+			}
+			h3{
+				font-size: 28px;
+			}
+			.input-placeholder{
+				width: 275px;
+				height: 40px;
+			}
+		}
+	}
+}
+@media only screen
+and (max-width : 568px) {
+	.section-container{
+		p{
+			font-size: 12px;
+		}
+		.section-one{
+			.section-title{
+				margin-top: 100px;
+			}
+			.section-content1{
+
+			}
+			#btn_find_out_more_hidden {
+	  		font-size: 12px;
+			}
+			.content-btn-section1{
+				margin-bottom: 25px;
+			}
+		}
+		.section-two{
+			height: 980px;
+		}
+		.section-two-mobile{
+			.img_road_01{
+				width: 12em;
+			}
+			.icon_road_traffic{
+				width: 7em;
+			}
+			#section_two_mobile_arrow_left .img-arrow-left {
+		    width: 2em;
+			}
+			#section_two_mobile_arrow_right{
+				padding-left: 4.5em;
+				.img-arrow-right {
+		    	width: 2em;
+				}
+			}
+		}
+		.section-three-mobile{
+			.div-driver-text p{
+				font-size: 18px;
+			}
+			#section_three_mobile_iphone .img-iphone{
+				width: 13em;
+			}
+			#section_three_mobile_icon_driver .icon_driver {
+	    	width: 5em;
+			}
+			#section_three_mobile_arrow_left .icon-arrow-left {
+		    width: 2em;
+			}
+			#section_three_mobile_arrow_right .icon-arrow-right {
+		    width: 2em;
+			}
+		}
+		.section-four{
+			h1{
+				font-size: 32px;
+			}
+			h2{
+				font-size: 28px;
+			}
+			h3{
+				font-size: 26px;
+				margin-top: 10px;
+			}
+			p{
+				font-size: 16px;
+			}
+			img{
+				width: 2em;
+			}
+			.input-placeholder{
+				width: 264px;
+				height: 33px;
+			}
+		}
+	}
+}
+@media only screen
+and (max-width : 414px){
+	#header{
+		height: 36px;
+		.navbar-toggle {
+			top: -3px;
+		}
+		li{
+			margin-top: -20px;
+			a{
+				font-size: 12px;
+			}
+		}
+	}
+	.section-container{
+		h1{
+			font-size: 22px;
+		}
+		p{
+			font-size: 9px;
+		}
+		.section-one{
+			.section-title{
+				margin-top: 80px;
+			}
+			.section-content1{
+
+			}
+			#btn_find_out_more_hidden{
+				font-size: 9px;
+			}
+			.content-btn-section1{
+				margin-top: 14px;
+			}
+		}
+		.section-two{
+			.img-get-started{
+				width: 130px;
+			}
+			.img_road_01{
+				width: 10em;
+			}
+		}
+		.section-two{
+			height: 1147px;
+		}
+		.section-two-mobile{
+			#img_road_01_mobile{
+				margin-top: -2em;
+				padding-left: 5em;
+			}
+			.img-why-alfred{
+				width: 9em;
+			}
+			#icon_why_alfred{
+				margin-top: -70px;
+			}
+			.div-road-traffic-img{
+				margin-left: -2.5em;
+			}
+			.icon_road_traffic{
+				width: 8em;
+			}
+			#section_two_mobile_arrow_left{
+				.img-arrow-left{
+					width: 2em;
+				}
+			}
+			#section_two_mobile_arrow_right{
+				padding-left: 6em;
+				.img-arrow-right{
+					width: 2em;
+				}
+			}
+			.div-road-traffic{
+				p{
+					font-size: 16px;
+				}
+			}
+		}
+		.section-three{
+		}
+		.section-three-mobile{
+			#section_three_mobile_icon_driver{
+				padding-top: 3em;
+				margin-bottom: -2em;
+			}
+			#section_three_mobile_arrow_left{
+				padding-top: 4.5em;
+    		padding-right: 3.5em;
+				.icon-arrow-left{
+					width: 2em;
+				}
+			}
+			#section_three_mobile_arrow_right{
+				padding-top: 4.5em;
+    		padding-left: 4.5em;
+				.icon-arrow-right{
+					width: 2em;
+				}
+			}
+			.div-driver-text p{
+				font-size: 14px;
+			}
+			#section_three_mobile_iphone .img-iphone{
+				width: 8em;
+			}
+			.img-road-03{
+				width: 1.5em;
+			}
+		}
+		.section-four{
+			padding-bottom: 7px;
+			h1{
+				font-size: 30px;
+			}
+			h2{
+				font-size: 24px;
+			}
+			h3{
+				font-size: 22px;
+			}
+			p{
+				font-size: 16px;
+				padding-top: 36px;
+			}
+			#p_input{
+				padding-top: 20px;
+				.input-placeholder{
+					width: 250px;
+					height: 40px;
+				}
+			}
+			.col-lg-4 div{
+				#icon_google_link, #icon_appstore_link {
+				 width: 80%;
+				}
+			}
+			.btn-notify-me{
+				width: 50%;
+			}
+			.section-four-left{
+				margin-left: 30px;
+			}
+			.div-app-link{
+				padding-top: 0px;
+			}
+			.col-lg-1 div{
+				margin-top: 28px;
+			}
+			img{
+				width: 80%;
+			}
+			.image_shadow{
+				width: 12%;
+				box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.3);
+			}
+			.div-info{
+				padding-left: 10px;
+			}
+			.div-system-link{
+				a{
+					font-size: 10px;
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+			}
+		}
+	}
+}
+@media only screen
+and (max-width : 375px){
+	.section-container{
+		h1{
+			font-size: 19px;
+		}
+		p{
+			font-size: 8px;
+		}
+		.section-one{
+			.section-content1{
+				margin-top: 14px;
+			}
+			#btn_find_out_more_hidden{
+				font-size: 8px;
+			}
+		}
+		.section-two{
+			height: 930px;
+			.img-get-started{
+				width: 110px;
+			}
+			.img_road_01{
+				width: 8em;
+			}
+		}
+		.section-two-mobile{
+			#img_road_01_mobile{
+				margin-top: -1.5em;
+			}
+			.img-why-alfred{
+				width: 7em;
+			}
+			#icon_why_alfred{
+				margin-left: -5px;
+			}
+			.icon_road_traffic{
+				width: 6em;
+			}
+			.div-road-traffic-img{
+				margin-left: -20px;
+			}
+			#section_two_mobile_arrow_left{
+				padding-top: 60px;
+				padding-right: 4em;
+			}
+			#section_two_mobile_arrow_right{
+				padding-top: 60px;
+				padding-left: 5em;
+			}
+			.div-road-traffic p{
+				font-size: 12px;
+			}
+		}
+		.section-three-mobile{
+			#section_three_mobile_iphone{
+				padding-left: 1em;
+			}
+			.div-driver-text p{
+				font-size: 12px;
+			}
+		}
+		.section-four{
+			h1{
+				font-size: 20px;
+			}
+			h2{
+				font-size: 18px;
+			}
+			h3{
+				font-size: 16px;
+				margin-top: 10px;
+			}
+			p{
+				font-size: 12px;
+				padding-top: 20px;
+			}
+			img{
+				width: 50%;
+			}
+			.col-lg-4 div{
+				#icon_google_link, #icon_appstore_link {
+				 width: 80%;
+				}
+			}
+			.col-lg-1 div{
+				margin-top: 24px;
+			}
+			.div-img-info{
+				margin-top: -10px;
+			}
+			#h1_about_us{
+				margin-top: 0px;
+    		margin-bottom: 0px;
+			}
+			#p_input .input-placeholder{
+				width: 200px;
+    		height: 30px;
+			}
+			.btn-notify-me{
+				width: 40%;
+			}
+			.image_shadow{
+				width: 10%;
+			}
+			.div-system-link a{
+				font-size: 8px;
+			}
+		}
+	}
+	@media only screen
+	and (max-width : 360px) {
+		.section-container{
+			.section-two{
+				height: 898px;
+			}
+			.section-two-mobile{
+				.img-road-02{
+					width: 1em;
+				}
+			}
+			.section-three-mobile{
+				.div-driver-text p{
+					font-size: 10px;
+				}
+				#section_three_mobile_iphone .img-iphone{
+					width: 6em;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width : 320px) {
+	.footer p {
+    font-size: 12px;
+	}
+	.section-container{
+		h1{
+			font-size: 16px;
+		}
+		p{
+			font-size: 8px;
+		}
+		.section-one{
+			.section-title{
+				margin-top: 70px;
+			}
+		}
+		.section-two{
+			height: 930px;
+			.img_road_01 {
+			 	width: 7em;
+			}
+		}
+		.section-two-mobile{
+			.img-why-alfred {
+		    width: 7em;
+			}
+			#img_road_01_mobile {
+		    padding-left: 4em;
+			}
+			#icon_why_alfred {
+	    	margin-top: -50px;
+			}
+		}
+		.section-three-mobile{
+			#section_three_mobile_icon_driver .icon_driver{
+				width: 4em;
+			}
+			#section_three_mobile_arrow_left{
+				padding-top: 4em;
+		    padding-right: 2em;
+				.icon-arrow-left {
+			    width: 2em;
+				}
+			}
+			#section_three_mobile_arrow_right{
+				padding-top: 4em;
+		    padding-left: 2em;
+				.icon-arrow-right {
+			    width: 2em;
+				}
+			}
+		}
+		.section-four{
+			.col-lg-4 div{
+				#icon_google_link, #icon_appstore_link {
+				 width: 80%;
+				}
+			}
+		}
+	}
+}
