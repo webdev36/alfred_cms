@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: alfred_production
-  username: kanban
-  password: <%= ENV['alfred_DATABASE_PASSWORD'] %>
+  username: pguser
+  password: pguser123
