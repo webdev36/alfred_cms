@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  host: localhost
   database: alfred_production
   username: pguser
   password: pguser123
